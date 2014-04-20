@@ -1,0 +1,165 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-define:UNITY_STANDALONE_OSX
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_4
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:CROSS_PLATFORM_INPUT
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/AbstractTargetFollower.cs'
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/AutoCam.cs'
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/FreeLookCam.cs'
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/HandHeldCam.cs'
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/LookatTarget.cs'
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/PivotBasedCameraRig.cs'
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs'
+'Assets/Prestuff/Sample Assets/Cameras/Scripts/TargetFieldOfView.cs'
+'Assets/Prestuff/Sample Assets/Characters/First Person Character/Scripts/FirstPersonCharacter.cs'
+'Assets/Prestuff/Sample Assets/Characters/First Person Character/Scripts/FirstPersonHeadBob.cs'
+'Assets/Prestuff/Sample Assets/Characters/Third Person Character/Scripts/AICharacterControl.cs'
+'Assets/Prestuff/Sample Assets/Characters/Third Person Character/Scripts/ThirdPersonCharacter.cs'
+'Assets/Prestuff/Sample Assets/Characters/Third Person Character/Scripts/ThirdPersonUserControl.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/AbstractButton.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/AxisTouchButton.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/Button.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/ButtonDownTextureChange.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/ButtonFactory.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/CrossPlatformInput.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/Joystick.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/JoystickAbstract.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/MobileControlRig.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/TiltInput.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/TouchJoystick.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/TouchPad.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/TouchPadPositional.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/TouchPadRelativePositional.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/TouchPadSwipe.cs'
+'Assets/Prestuff/Sample Assets/Cross Platform Input/Scripts/VirtualInput.cs'
+'Assets/Prestuff/Sample Assets/Effects/Light Shafts/Scripts/LightShafts.Resources.cs'
+'Assets/Prestuff/Sample Assets/Effects/Light Shafts/Scripts/LightShafts.Utils.cs'
+'Assets/Prestuff/Sample Assets/Effects/Light Shafts/Scripts/LightShafts.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/AfterburnerPhysicsForce.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/ExplosionFireAndDebris.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/ExplosionPhysicsForce.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/Explosive.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/ExtinguishableParticleSystem.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/FireLight.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/Hose.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/ParticleSystemMultiplier.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/SmokeParticles.cs'
+'Assets/Prestuff/Sample Assets/Effects/Particle Systems/scripts/WaterHoseParticles.cs'
+'Assets/Prestuff/Sample Assets/Sample Scenes/Scripts/Clouds.cs'
+'Assets/Prestuff/Sample Assets/Sample Scenes/Scripts/ParticleSceneControls.cs'
+'Assets/Prestuff/Sample Assets/Sample Scenes/Scripts/PlaceTargetWithMouse.cs'
+'Assets/Prestuff/Sample Assets/Sample Scenes/Scripts/SlowMoButton.cs'
+'Assets/Prestuff/Sample Assets/Utility/AutoMobileShaderSwitch.cs'
+'Assets/Prestuff/Sample Assets/Utility/AutoMoveAndRotate.cs'
+'Assets/Prestuff/Sample Assets/Utility/CombineChildren.cs'
+'Assets/Prestuff/Sample Assets/Utility/DynamicShadowSettings.cs'
+'Assets/Prestuff/Sample Assets/Utility/FPSCounter.cs'
+'Assets/Prestuff/Sample Assets/Utility/FollowTarget.cs'
+'Assets/Prestuff/Sample Assets/Utility/ForcedReset.cs'
+'Assets/Prestuff/Sample Assets/Utility/MeshCombineUtility.cs'
+'Assets/Prestuff/Sample Assets/Utility/ObjectResetter.cs'
+'Assets/Prestuff/Sample Assets/Utility/ParticleSystemDestroyer.cs'
+'Assets/Prestuff/Sample Assets/Utility/PlatformSpecificContent.cs'
+'Assets/Prestuff/Sample Assets/Utility/SimpleActivatorMenu.cs'
+'Assets/Prestuff/Sample Assets/Utility/SimpleMouseRotator.cs'
+'Assets/Prestuff/Sample Assets/Utility/TimedObjectActivator.cs'
+'Assets/Prestuff/Sample Assets/Utility/WaypointCircuit.cs'
+'Assets/Prestuff/Sample Assets/Utility/WaypointProgressTracker.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplaneAIControl.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplaneGUI.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Aircraft/Scripts/LandingGear.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/BrakeLight.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/CarAIControl.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/CarAudio.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/CarController.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/CarGUI.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/CarSelfRighting.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/CarUserControl.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/Mudguard.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/SkidTrail.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/Suspension.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Car/Scripts/Wheel.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Rolling Ball/Scripts/Ball.cs'
+'Assets/Prestuff/Sample Assets/Vehicles/Rolling Ball/Scripts/BallUserControl.cs'
+'Assets/Prestuff/Scripts/BackgroundParallax.cs'
+'Assets/Prestuff/Scripts/BackgroundPropSpawner.cs'
+'Assets/Prestuff/Scripts/Bomb.cs'
+'Assets/Prestuff/Scripts/BombPickup.cs'
+'Assets/Prestuff/Scripts/CameraFollow.cs'
+'Assets/Prestuff/Scripts/Destroyer.cs'
+'Assets/Prestuff/Scripts/Enemy.cs'
+'Assets/Prestuff/Scripts/FollowPlayer.cs'
+'Assets/Prestuff/Scripts/Gun.cs'
+'Assets/Prestuff/Scripts/HealthPickup.cs'
+'Assets/Prestuff/Scripts/LayBombs.cs'
+'Assets/Prestuff/Scripts/Pauser.cs'
+'Assets/Prestuff/Scripts/PickupSpawner.cs'
+'Assets/Prestuff/Scripts/PlayerControl.cs'
+'Assets/Prestuff/Scripts/PlayerHealth.cs'
+'Assets/Prestuff/Scripts/Remover.cs'
+'Assets/Prestuff/Scripts/Rocket.cs'
+'Assets/Prestuff/Scripts/Score.cs'
+'Assets/Prestuff/Scripts/ScoreShadow.cs'
+'Assets/Prestuff/Scripts/SetParticleSortingLayer.cs'
+'Assets/Prestuff/Scripts/Spawner.cs'
+'Assets/Prestuff/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs'
+'Assets/Prestuff/Standard Assets/Scripts/General Scripts/ActivateTrigger.cs'
+'Assets/Scripts/Camera2DFollow.cs'
+'Assets/Scripts/Camerarunnerscript.cs'
+'Assets/Scripts/Destroyerscript.cs'
+'Assets/Scripts/GameOverscript.cs'
+'Assets/Scripts/HUDscript.cs'
+'Assets/Scripts/MouseButton.cs'
+'Assets/Scripts/Platformer2DUserControl.cs'
+'Assets/Scripts/PlatformerCharacter2D.cs'
+'Assets/Scripts/Restarter.cs'
+'Assets/Scripts/Spawnscript.cs'
+'Assets/Scripts/TouchButtonColor.cs'
+'Assets/Scripts/TouchButtonLogic.cs'
+'Assets/Scripts/TouchButtonTalk.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
